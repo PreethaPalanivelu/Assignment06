@@ -15,6 +15,7 @@ public class Student
     private int id;
     @Column
     private String student_name;
+
     //defining age as column name
     @Column
     private String course_name;
@@ -41,5 +42,6 @@ public class Student
     public void setEmail(String email) {
         this.email = email;
     }
+   
 
 }
